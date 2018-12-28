@@ -1,0 +1,186 @@
+tissue_template_dragon
+
+[OBJECT:TISSUE_TEMPLATE]
+
+{FIREDRAGON}
+
+{ICEDRAGON}
+
+  [TISSUE_TEMPLATE:ICE_DRAGONSCALE_TEMPLATE]
+  	[TISSUE_NAME:dragon scale:STP]
+  	[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:ICE_DRAGONSCALE]
+  	[SCARS]
+  	[RELATIVE_THICKNESS:4]{:1  Revision: scales were cut too easily.}
+  	[HEALING_RATE:600]{:100    Revision: scale was healing too quickly.}
+  	[VASCULAR:1]                Revision: scale doesn't bleed anymore.}
+  	[PAIN_RECEPTORS:1]{:5      Revision: scale injuries are also less painful.}
+  	[CONNECTS]
+  	[TISSUE_SHAPE:SCALES]
+
+  [TISSUE_TEMPLATE:ICE_DRAGONBONE_TEMPLATE]
+  	[TISSUE_NAME:dragon bone:NP] Whether it has a plural depends on exact part
+  	[STRUCTURAL]
+  	[CONNECTIVE_TISSUE_ANCHOR]
+  	[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:ICE_DRAGONBONE]
+  	[RELATIVE_THICKNESS:4]
+  	[HEALING_RATE:2000]
+  	[VASCULAR:6]{:3          Revision: bone fractures tend to make people bleed.}
+  	[PAIN_RECEPTORS:40]{:50  Revision: on the other hand, fractured bones were too painful.}
+  	[CONNECTS]
+  	[TISSUE_SHAPE:LAYER]
+  	[SETTABLE]
+  	[SPLINTABLE]
+
+  [TISSUE_TEMPLATE:ICE_DRAGONCLAW_TEMPLATE]
+  	[TISSUE_NAME:dragon claw:NP]
+  	[STRUCTURAL]
+  	[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:ICE_DRAGONCLAW]
+  	[RELATIVE_THICKNESS:4]
+  	[HEALING_RATE:1000]{+  Revision: claws grow back.}
+  	[CONNECTS]
+  	[TISSUE_SHAPE:LAYER]
+
+  [TISSUE_TEMPLATE:ICE_DRAGONTOOTH_TEMPLATE]
+  	[TISSUE_NAME:dragon tooth:NP]
+  	[STRUCTURAL]
+  	[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:ICE_DRAGONTOOTH]
+  	[RELATIVE_THICKNESS:4]
+  	[VASCULAR:1]{+        Revision: teeth now bleed.  At least, the gums do.}
+  	[PAIN_RECEPTORS:1]{+  Revision: chipped teeth are definitely painful.}
+  	[CONNECTS]
+  	[TISSUE_SHAPE:LAYER]
+
+{FORESTDRAGON}
+  [TISSUE_TEMPLATE:FOREST_DRAGONSCALE_TEMPLATE]
+    [TISSUE_NAME:dragon scale:STP]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:FOREST_DRAGONSCALE]
+    [SCARS]
+    [RELATIVE_THICKNESS:4]{:1  Revision: scales were cut too easily.}
+    [HEALING_RATE:600]{:100    Revision: scale was healing too quickly.}
+    [VASCULAR:1]                Revision: scale doesn't bleed anymore.}
+    [PAIN_RECEPTORS:1]{:5      Revision: scale injuries are also less painful.}
+    [CONNECTS]
+    [TISSUE_SHAPE:SCALES]
+
+  [TISSUE_TEMPLATE:FOREST_DRAGONBONE_TEMPLATE]
+    [TISSUE_NAME:dragon bone:NP] Whether it has a plural depends on exact part
+    [STRUCTURAL]
+    [CONNECTIVE_TISSUE_ANCHOR]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:FOREST_DRAGONBONE]
+    [RELATIVE_THICKNESS:4]
+    [HEALING_RATE:2000]
+    [VASCULAR:6]{:3          Revision: bone fractures tend to make people bleed.}
+    [PAIN_RECEPTORS:40]{:50  Revision: on the other hand, fractured bones were too painful.}
+    [CONNECTS]
+    [TISSUE_SHAPE:LAYER]
+    [SETTABLE]
+    [SPLINTABLE]
+
+  [TISSUE_TEMPLATE:FOREST_DRAGONCLAW_TEMPLATE]
+    [TISSUE_NAME:dragon claw:NP]
+    [STRUCTURAL]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:FOREST_DRAGONCLAW]
+    [RELATIVE_THICKNESS:4]
+    [HEALING_RATE:1000]{+  Revision: claws grow back.}
+    [CONNECTS]
+    [TISSUE_SHAPE:LAYER]
+
+  [TISSUE_TEMPLATE:FOREST_DRAGONTOOTH_TEMPLATE]
+    [TISSUE_NAME:dragon tooth:NP]
+    [STRUCTURAL]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:FOREST_DRAGONTOOTH]
+    [RELATIVE_THICKNESS:4]
+    [VASCULAR:1]{+        Revision: teeth now bleed.  At least, the gums do.}
+    [PAIN_RECEPTORS:1]{+  Revision: chipped teeth are definitely painful.}
+    [CONNECTS]
+    [TISSUE_SHAPE:LAYER]
+
+{DEADDRAGON}
+  [TISSUE_TEMPLATE:DEAD_DRAGONSCALE_TEMPLATE]
+    [TISSUE_NAME:rotten dragon scale:STP]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:DEAD_DRAGONSCALE]
+    [SCARS]
+    [RELATIVE_THICKNESS:4]{:1  Revision: scales were cut too easily.}
+    [HEALING_RATE:300]{:100    Revision: scale was healing too quickly.}
+    [VASCULAR:1]                Revision: scale doesn't bleed anymore.}
+    [PAIN_RECEPTORS:1]{:5      Revision: scale injuries are also less painful.}
+    [CONNECTS]
+    [TISSUE_SHAPE:SCALES]
+
+  [TISSUE_TEMPLATE:DEAD_DRAGONBONE_TEMPLATE]
+    [TISSUE_NAME:rotten dragon bone:NP] Whether it has a plural depends on exact part
+    [STRUCTURAL]
+    [CONNECTIVE_TISSUE_ANCHOR]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:DEAD_DRAGONBONE]
+    [RELATIVE_THICKNESS:4]
+    [HEALING_RATE:1000]
+    [VASCULAR:6]{:3          Revision: bone fractures tend to make people bleed.}
+    [PAIN_RECEPTORS:40]{:50  Revision: on the other hand, fractured bones were too painful.}
+    [CONNECTS]
+    [TISSUE_SHAPE:LAYER]
+    [SETTABLE]
+    [SPLINTABLE]
+
+  [TISSUE_TEMPLATE:DEAD_DRAGONCLAW_TEMPLATE]
+    [TISSUE_NAME:rotten dragon claw:NP]
+    [STRUCTURAL]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:DEAD_DRAGONCLAW]
+    [RELATIVE_THICKNESS:4]
+    [HEALING_RATE:500]{+  Revision: claws grow back.}
+    [CONNECTS]
+    [TISSUE_SHAPE:LAYER]
+
+  [TISSUE_TEMPLATE:DEAD_DRAGONTOOTH_TEMPLATE]
+    [TISSUE_NAME:rotten dragon tooth:NP]
+    [STRUCTURAL]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:DEAD_DRAGONTOOTH]
+    [RELATIVE_THICKNESS:4]
+    [VASCULAR:1]{+        Revision: teeth now bleed.  At least, the gums do.}
+    [PAIN_RECEPTORS:1]{+  Revision: chipped teeth are definitely painful.}
+    [CONNECTS]
+    [TISSUE_SHAPE:LAYER]
+
+{EARTHDRAGON}
+  [TISSUE_TEMPLATE:EARTH_DRAGONSCALE_TEMPLATE]
+    [TISSUE_NAME:dragon scale:STP]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:EARTH_DRAGONSCALE]
+    [SCARS]
+    [RELATIVE_THICKNESS:4]{:1  Revision: scales were cut too easily.}
+    [HEALING_RATE:600]{:100    Revision: scale was healing too quickly.}
+    [VASCULAR:1]                Revision: scale doesn't bleed anymore.}
+    [PAIN_RECEPTORS:1]{:5      Revision: scale injuries are also less painful.}
+    [CONNECTS]
+    [TISSUE_SHAPE:SCALES]
+
+  [TISSUE_TEMPLATE:EARTH_DRAGONBONE_TEMPLATE]
+    [TISSUE_NAME:dragon bone:NP] Whether it has a plural depends on exact part
+    [STRUCTURAL]
+    [CONNECTIVE_TISSUE_ANCHOR]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:EARTH_DRAGONBONE]
+    [RELATIVE_THICKNESS:4]
+    [HEALING_RATE:2000]
+    [VASCULAR:6]{:3          Revision: bone fractures tend to make people bleed.}
+    [PAIN_RECEPTORS:40]{:50  Revision: on the other hand, fractured bones were too painful.}
+    [CONNECTS]
+    [TISSUE_SHAPE:LAYER]
+    [SETTABLE]
+    [SPLINTABLE]
+
+  [TISSUE_TEMPLATE:EARTH_DRAGONCLAW_TEMPLATE]
+    [TISSUE_NAME:dragon claw:NP]
+    [STRUCTURAL]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:EARTH_DRAGONCLAW]
+    [RELATIVE_THICKNESS:4]
+    [HEALING_RATE:1000]{+  Revision: claws grow back.}
+    [CONNECTS]
+    [TISSUE_SHAPE:LAYER]
+
+  [TISSUE_TEMPLATE:EARTH_DRAGONTOOTH_TEMPLATE]
+    [TISSUE_NAME:dragon tooth:NP]
+    [STRUCTURAL]
+    [TISSUE_MATERIAL:LOCAL_CREATURE_MAT:EARTH_DRAGONTOOTH]
+    [RELATIVE_THICKNESS:4]
+    [VASCULAR:1]{+        Revision: teeth now bleed.  At least, the gums do.}
+    [PAIN_RECEPTORS:1]{+  Revision: chipped teeth are definitely painful.}
+    [CONNECTS]
+    [TISSUE_SHAPE:LAYER]
